@@ -1,0 +1,59 @@
+{
+  "name": "cdn-bitcore-lib",
+  "version": "0.15.0",
+  "description": "A pure and powerful JavaScript Bitcoin library for use on the Canada eCoin network.",
+  "author": "koad <npm@kingofalldata.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "Jason (koad) Zvaniga",
+      "email": "koad@canadaecoin.ca"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Canada-eCoin/cdn-bitcore-lib.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "bn": "^1.0.1",
+    "bn.js": "^4.11.8",
+    "bs58": "^4.0.1",
+    "buffer-compare": "=1.1.1",
+    "elliptic": "^6.4.0",
+    "inherits": "=2.0.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "bitcore-build": "https://github.com/Canada-eCoin/cdn-bitcore-build.git",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "license": "MIT"
+}
